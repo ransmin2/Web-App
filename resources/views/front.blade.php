@@ -4,10 +4,42 @@
 
     <div class="container">
         <section>
+
+        <div>
+                <b-carousel
+                    id="carousel-fade"
+                    style="text-shadow: 0px 0px 2px #000"
+                    fade
+                    indicators
+                    img-width="1024"
+                    img-height="480"
+                >
+                    <b-carousel-slide
+                        caption="Step-by-step audiovisual training.
+"
+                        img-src="https://picsum.photos/1024/480/?image=10"
+                    ></b-carousel-slide>
+                    <b-carousel-slide
+                        caption="Approved by experts and recommended by doctors."
+                        img-src="https://picsum.photos/1024/480/?image=12"
+                    ></b-carousel-slide>
+                    <b-carousel-slide
+                        caption="Retain correct technique for better medical outcomes."
+                        img-src="https://picsum.photos/1024/480/?image=22"
+                    ></b-carousel-slide>
+                </b-carousel>
+            </div>
+
+
+
+
+
+        </section>
+        <section>
             <div>
-                <b-jumbotron header="BootstrapVue" lead="Bootstrap v4 Components for Vue.js 2">
-                    <p>For more information visit website</p>
-                    <b-button variant="primary" href="{{route('series.index')}}">Browse Course</b-button>
+                <b-jumbotron  lead="Bootstrap v4 Components for Vue.js 2">
+
+                    <b-button variant="primary" href="{{route('series.index')}}">Browse Videos</b-button>
                 </b-jumbotron>
             </div>
         </section>
