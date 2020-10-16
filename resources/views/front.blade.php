@@ -37,7 +37,7 @@
         </section>
         <section>
             <div>
-                <b-jumbotron  lead="Bootstrap v4 Components for Vue.js 2">
+                <b-jumbotron  lead="Watch and learn the correct technique">
 
                     <b-button variant="primary" href="{{route('series.index')}}">Browse Videos</b-button>
                 </b-jumbotron>
@@ -46,7 +46,7 @@
 
         <section class="mb-5">
             <div>
-                <h3 class="mb-3 text-center">Become full stack developer</h3>
+                <h3 class="mb-3 text-center">Recently added videos</h3>
 
                 <b-card-group deck>
                     @foreach($featuredSeries as $series)
@@ -76,6 +76,15 @@
 
 
     </div>
+    <div class="container">
+    <section>
 
 
+        <footer>
+            <p class="footer-Inhaler-Buddy">Ranju Mathews © 2020</p>
+
+        </footer
+    </section>
+
+    </div>
 @endsection

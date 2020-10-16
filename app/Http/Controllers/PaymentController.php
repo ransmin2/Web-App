@@ -14,8 +14,8 @@ class PaymentController extends Controller
     public function payment()
     {
         $availablePlans =[
-           'prod_HsnmUIcrueVuR7' => "Monthly",
-           'prod_Hwbj8jCBKJINQZ' => "Yearly",
+           'inhaler_monthly' => "Monthly",
+           'inhaler_yearly' => "Yearly",
         ];
         $data = [
             'intent' => auth()->user()->createSetupIntent(),

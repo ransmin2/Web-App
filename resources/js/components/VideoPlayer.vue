@@ -1,7 +1,7 @@
 <template>
     <div class="container">
 
-        <div id="webdemy-player"
+        <div id="inhaler"
              style="padding:56.25% 0 0 0;position:relative;"
         >
 
@@ -18,11 +18,11 @@
             console.log('Component mounted.')
 
             var videoOptions = {
-                id: 359987235,
+                id:this.video.vimeo_video_id,
                 width: 500,
                 autoplay:true
             };
-            var player = new Player('webdemy-player', videoOptions);
+            var player = new Player('inhaler', videoOptions);
 
             player.on('ended', ()=>{
                console.log('video ended', this.nextVideoUrl);
