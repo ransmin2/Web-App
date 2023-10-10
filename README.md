@@ -1,7 +1,5 @@
 # Installation 
-Clone repo
 
-	git clone https://github.com/webdevmatics/webdemy.git
 Install the composer dependencies
 
 	composer install
